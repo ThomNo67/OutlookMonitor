@@ -16,6 +16,11 @@ The following MAPI stores are supported:
 The tool is available as 32bit and 64bit version, the bitness need to match the installed Outlook version.
 The tracing-information will be displayed in the tool and can be saved as a file for further analysis.
 
+Please note - Aug 2022
+With the latest Beta/Current Channel Preview release, monitoring with an 'Online Mode' profile might fail.
+No changes will be tracked in the log.
+This is being investigated right now.
+
 
 # **How to use this tool (simplified)**
 
