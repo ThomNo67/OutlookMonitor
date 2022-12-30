@@ -113,11 +113,6 @@ This option is not enabled by default. I enabled, the added/modified item will b
 
 This option is not enabled by default. When registering a folder for table notifications, only the contents table will be registered. If this option is enabled, both contents table and the associated contents table will be registered.
 
-- **Resolve named properties**
-
-This option is enabled by default. Named properties will be displayed with the server-specific ID, and the global, server-independent ID.
-
-
 - **Dump Recipients**
 
 This option is not enabled by default. If enabled, all items in the recipient table for a given MAPI item with their properties will be logged.
