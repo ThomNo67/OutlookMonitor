@@ -16,11 +16,9 @@ The following MAPI stores are supported:
 The tool is available as 32bit and 64bit version, the bitness need to match the installed Outlook version.
 The tracing-information will be displayed in the tool and can be saved as a file for further analysis.
 
-**Please note - Aug 2022**
+**Please note - Dec 2022**
 
-With the latest Beta/Current Channel Preview release, monitoring with an 'Online Mode' profile might fail.
-No changes will be tracked in the log.
-This is being investigated right now.
+Monitoring with an 'Online Mode' profile now succeeds.
 
 
 # **How to use this tool (simplified)**
@@ -164,10 +162,6 @@ Be careful to monitor a whole store (an Exchange Mailbox, a Pubic Folder) when t
 
 The following command-line parameter can be used:
 
-### /EnableTS
-
--> this enables the troubleshooting view and extra output
-
 ### /Profile:<profile name>
 
 -> the dialog to select a MAPI profile doesn't appear, the profile passed as <profile name> will be used
@@ -177,7 +171,6 @@ The following command-line parameter can be used:
 -> the dialog to select a MAPI profile doesn't appear, the default MAPI profile will be used
 
 (if both /Default and /Profile:<..> are set, /Default will win)
-
 
 ### /FldrList:<number>
 
